@@ -12,3 +12,9 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Claude Code
+CLAUDE.md
+
+# 参考项目分析（本地学习资料，不入库）
+docs/参考项目分析.md
