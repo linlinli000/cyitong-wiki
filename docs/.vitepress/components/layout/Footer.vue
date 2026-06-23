@@ -6,14 +6,14 @@
 <template>
   <footer class="wiki-footer">
     <p class="footer-message">
-      内容由本校学生编写。世界千变万化，过往经验不保证完全可用，请以实际情况为准。
+      内容由本校学生编写，过往经验不保证完全可用，请以实际情况为准。
     </p>
     <p class="footer-copyright">
       © {{ new Date().getFullYear() }}
       <a href="https://github.com/linlinli000/cyitong-wiki" target="_blank">成医通项目组</a>
       ，采用
       <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank">CC BY-NC-SA 4.0</a>
-      协议。公益项目，与成都医学院校方无关。
+      协议。
     </p>
   </footer>
 </template>

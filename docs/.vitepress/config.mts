@@ -37,7 +37,7 @@ export default defineConfig({
     // 大纲（右侧目录）
     outline: {
       level: [2, 3],
-      label: '本页目录',
+      label: '目录',
     },
 
     // 上一页 / 下一页
@@ -115,6 +115,35 @@ export default defineConfig({
       dangerLabel: '危险',
       infoLabel: '信息',
       detailsLabel: '详细信息',
+    },
+    // 二级及以下标题自动编号（同时影响文章内容和右侧目录）
+    config(md) {
+      md.core.ruler.push('heading_number', (state) => {
+        const counters = [0, 0, 0, 0, 0, 0]
+        for (let i = 0; i < state.tokens.length; i++) {
+          const token = state.tokens[i]
+          if (token.type !== 'heading_open') continue
+          const level = parseInt(token.tag.slice(1))
+          if (level < 2) continue // 跳过 h1（页面标题不编号）
+
+          // 当前层级计数 +1，并清零所有更深层级
+          counters[level - 1]++
+          for (let j = level; j < 6; j++) counters[j] = 0
+
+          // 生成编号前缀，如 "1. "、"2.3. "（切片跳过 h1 计数器）
+          const prefix = counters.slice(1, level).filter(c => c > 0).join('.') + '. '
+
+          // 将编号写入标题文本（右侧目录也会因此显示编号）
+          const inline = state.tokens[i + 1]
+          if (inline?.type === 'inline' && inline.children?.length) {
+            const first = inline.children[0]
+            if (first.type === 'text') {
+              first.content = prefix + first.content
+            }
+          }
+        }
+        return true
+      })
     },
   },
 

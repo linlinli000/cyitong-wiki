@@ -16,8 +16,16 @@
     "wiki",
     "campus"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "成医通项目组",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linlinli000/cyitong-wiki"
+  },
+  "homepage": "https://wiki.cyitong.top",
+  "bugs": {
+    "url": "https://github.com/linlinli000/cyitong-wiki/issues"
+  },
   "dependencies": {
     "@iconify/vue": "^5.0.0"
   },
