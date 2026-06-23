@@ -1,19 +1,33 @@
 {
   "name": "cyitong-wiki",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "成都医学院校园百科平台",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev docs",
+    "docs:dev": "vitepress dev docs --open --host",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "lint": "eslint .",
+    "lint:style": "stylelint \"**/*.{css,vue}\"",
+    "lint:spell": "cspell \"**/*.md\""
   },
-  "keywords": [],
+  "keywords": [
+    "vitepress",
+    "wiki",
+    "campus"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "dependencies": {
+    "@iconify/vue": "^5.0.0"
+  },
   "devDependencies": {
+    "@antfu/eslint-config": "^4.11.0",
+    "@types/node": "^22.20.0",
+    "eslint": "^9.0.0",
+    "markdown-it-mathjax3": "^4.3.2",
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^37.0.0",
     "vitepress": "^2.0.0-alpha.17"
   }
 }

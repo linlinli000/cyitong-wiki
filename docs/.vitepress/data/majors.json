@@ -1,0 +1,122 @@
+[
+  {
+    "id": "clinical-medicine",
+    "name": "临床医学",
+    "college": "临床医学院",
+    "degree": "医学学士",
+    "duration": "5年",
+    "description": "培养具备基础医学、临床医学基本理论和医疗预防基本技能，能在医疗卫生单位从事医疗及预防工作的医学专门人才。国家级一流本科专业建设点。"
+  },
+  {
+    "id": "anesthesiology",
+    "name": "麻醉学",
+    "college": "临床医学院",
+    "degree": "医学学士",
+    "duration": "5年",
+    "description": "培养掌握基础医学、临床医学和麻醉学基本知识与技能，能够从事临床麻醉、急救复苏、疼痛诊疗等工作的麻醉专业人才。"
+  },
+  {
+    "id": "medical-imaging",
+    "name": "医学影像学",
+    "college": "临床医学院",
+    "degree": "医学学士",
+    "duration": "5年",
+    "description": "培养具备基础医学、临床医学和医学影像学基本理论与技能，能从事医学影像诊断、介入放射学等工作的专业人才。"
+  },
+  {
+    "id": "nursing",
+    "name": "护理学",
+    "college": "护理学院",
+    "degree": "理学学士",
+    "duration": "4年",
+    "description": "培养具备人文社会科学、医学、预防保健及护理学基本知识与技能，能在护理领域从事临床护理、护理管理等工作的专业人才。"
+  },
+  {
+    "id": "pharmacy",
+    "name": "药学",
+    "college": "药学院",
+    "degree": "理学学士",
+    "duration": "4年",
+    "description": "培养具备药学学科基本理论和实验技能，能在药品生产、检验、流通、使用和研发领域工作的药学专门人才。"
+  },
+  {
+    "id": "chinese-medicine",
+    "name": "中药学",
+    "college": "药学院",
+    "degree": "理学学士",
+    "duration": "4年",
+    "description": "培养具备中药学基本理论和技能，能从事中药鉴定、炮制、制剂、质量控制及临床用药指导等工作的专业人才。"
+  },
+  {
+    "id": "medical-lab",
+    "name": "医学检验技术",
+    "college": "检验医学院",
+    "degree": "理学学士",
+    "duration": "4年",
+    "description": "培养掌握基础医学、临床医学和医学检验技术基本理论与技能，能从事医学检验及实验室管理工作的应用型人才。"
+  },
+  {
+    "id": "preventive-medicine",
+    "name": "预防医学",
+    "college": "公共卫生学院",
+    "degree": "医学学士",
+    "duration": "5年",
+    "description": "培养具备预防医学基本理论与卫生检测技术，能从事疾病预防控制、卫生监督、卫生管理等工作的公共卫生人才。"
+  },
+  {
+    "id": "rehabilitation",
+    "name": "康复治疗学",
+    "college": "临床医学院",
+    "degree": "理学学士",
+    "duration": "4年",
+    "description": "培养掌握康复医学基本理论和康复治疗技术，能从事康复评定、物理治疗、作业治疗等工作的康复治疗专业人才。"
+  },
+  {
+    "id": "biomedical-engineering",
+    "name": "生物医学工程",
+    "college": "生物科学与技术学院",
+    "degree": "工学学士",
+    "duration": "4年",
+    "description": "培养具备生物医学工程领域专业知识，能在医疗器械研发、维护、管理等方面工作的复合型工程技术人才。"
+  },
+  {
+    "id": "biotechnology",
+    "name": "生物技术",
+    "college": "生物科学与技术学院",
+    "degree": "理学学士",
+    "duration": "4年",
+    "description": "培养具备生物技术基本理论和实验技能，能在医药、食品、环保等领域从事研发、生产和管理工作的专业人才。"
+  },
+  {
+    "id": "applied-psychology",
+    "name": "应用心理学",
+    "college": "心理学院",
+    "degree": "理学学士",
+    "duration": "4年",
+    "description": "培养具备心理学基本理论和应用技能，能从事心理咨询、心理健康教育、人力资源管理等工作的高素质应用型人才。"
+  },
+  {
+    "id": "public-administration",
+    "name": "公共事业管理",
+    "college": "人文信息管理学院",
+    "degree": "管理学学士",
+    "duration": "4年",
+    "description": "培养具备现代公共管理理论与方法，能在卫生行政、医疗保障、医院管理等机构从事管理工作的复合型人才。"
+  },
+  {
+    "id": "information-management",
+    "name": "信息管理与信息系统",
+    "college": "人文信息管理学院",
+    "degree": "管理学学士",
+    "duration": "4年",
+    "description": "培养具备信息管理和信息系统分析设计能力，能在医疗卫生机构从事信息化建设与管理工作的应用型人才。"
+  },
+  {
+    "id": "stomatology",
+    "name": "口腔医学",
+    "college": "临床医学院",
+    "degree": "医学学士",
+    "duration": "5年",
+    "description": "培养掌握基础医学、临床医学和口腔医学基本理论与技能，能从事口腔常见病诊疗和预防保健工作的口腔医学专门人才。"
+  }
+]

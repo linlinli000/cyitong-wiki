@@ -1,0 +1,23 @@
+{
+  "unknownWords": "report-common-typos",
+  "ignorePaths": [
+    "pnpm-lock.yaml",
+    "package-lock.json",
+    "node_modules",
+    "docs/.vitepress/dist",
+    "docs/.vitepress/cache"
+  ],
+  "words": [
+    "cyitong",
+    "vitepress",
+    "frontmatter",
+    "lintstaged",
+    "stylelint",
+    "pinia",
+    "vueuse",
+    "iconify",
+    "tippy",
+    "unocss",
+    "cspell"
+  ]
+}

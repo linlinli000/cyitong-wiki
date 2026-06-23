@@ -146,3 +146,23 @@
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
+/**
+ * Component: Home Feature Cards — 将 emoji 图标变为卡片背景水印
+ * -------------------------------------------------------------------------- */
+
+.VPFeature {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.VPFeature .icon {
+  position: absolute;
+  opacity: 0.12;
+  right: 10%;
+  bottom: 0;
+  background-color: transparent;
+  font-size: 8em;
+  z-index: -1;
+}
+
